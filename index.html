@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>মাঘী পূর্ণিমার ভালোবাসা</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Noto+Serif+Bengali:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Hind Siliguri', 'Noto Serif Bengali', serif;
+        overflow-x: hidden;
+      }
+      .font-poetic {
+        font-family: 'Noto Serif Bengali', serif;
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-20px); }
+      }
+      .float-animation {
+        animation: float 6s ease-in-out infinite;
+      }
+      @keyframes glow {
+        0%, 100% { text-shadow: 0 0 10px rgba(255,215,0,0.5); }
+        50% { text-shadow: 0 0 25px rgba(255,215,0,0.8); }
+      }
+      .glow-text {
+        animation: glow 3s ease-in-out infinite;
+      }
+      .alpana-bg {
+        background-image: url('https://www.transparenttextures.com/patterns/natural-paper.png');
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4"
+  }
+}
+</script>
+</head>
+  <body class="bg-[#fff9f9] text-[#4a3b3b]">
+    <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
+  </body>
+</html>
