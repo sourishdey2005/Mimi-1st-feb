@@ -21,7 +21,7 @@ export const MusicPlayer: React.FC = () => {
       <audio 
         ref={audioRef} 
         loop 
-        src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" // Placeholder for romantic background music
+        src="https://res.cloudinary.com/dodhvvewu/video/upload/v1769286108/Nazm_Nazm-_Bareilly_Ki_Barfi_128_Kbps_qrvngy.mp3" // Placeholder for romantic background music
       />
       <button
         onClick={toggleMusic}
